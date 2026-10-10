@@ -54,13 +54,13 @@ export default function App() {
           <h1 className="text-3xl font-bold tracking-tight text-indigo-600">
             Game Portfolio
           </h1>
-          <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-base font-medium text-gray-600">
-            <Link to="/" className="transition hover:text-indigo-500">Home</Link>
-            <Link to="/page1" className="transition hover:text-indigo-500">Game Projects</Link>
-            <Link to="/page2" className="transition hover:text-indigo-500">About</Link>
-            <Link to="/tasks" className="transition hover:text-indigo-500">สิ่งที่ต้องทำ</Link>
-            <Link to="/calendar" className="transition hover:text-indigo-500">ปฏิทิน</Link>
-            <Link to="/games" className="transition hover:text-indigo-500">บันทึกเกม</Link>
+          <nav className="flex flex-wrap items-center justify-center gap-x-2 gap-y-2 text-base font-medium text-gray-600">
+            <Link to="/" className="rounded-lg px-3 py-2 transition hover:bg-gray-100 hover:text-indigo-500">Home</Link>
+            <Link to="/page1" className="rounded-lg px-3 py-2 transition hover:bg-gray-100 hover:text-indigo-500">Game Projects</Link>
+            <Link to="/page2" className="rounded-lg px-3 py-2 transition hover:bg-gray-100 hover:text-indigo-500">About</Link>
+            <Link to="/tasks" className="rounded-lg px-3 py-2 transition hover:bg-gray-100 hover:text-indigo-500">สิ่งที่ต้องทำ</Link>
+            <Link to="/calendar" className="rounded-lg px-3 py-2 transition hover:bg-gray-100 hover:text-indigo-500">ปฏิทิน</Link>
+            <Link to="/games" className="rounded-lg px-3 py-2 transition hover:bg-gray-100 hover:text-indigo-500">บันทึกเกม</Link>
             <button
               type="button"
               onClick={toggleTheme}
