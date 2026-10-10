@@ -49,12 +49,12 @@ export default function App() {
       data-theme={theme}
     >
 
-      <header className="px-4 py-6 bg-white border-b border-gray-200 sm:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-4 sm:flex-row sm:justify-between">
-          <h1 className="text-2xl font-bold tracking-tight text-indigo-600">
+      <header className="px-4 py-7 bg-white border-b border-gray-200 sm:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 md:flex-row md:justify-between">
+          <h1 className="text-3xl font-bold tracking-tight text-indigo-600">
             Game Portfolio
           </h1>
-          <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-sm font-medium text-gray-600">
+          <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-base font-medium text-gray-600">
             <Link to="/" className="transition hover:text-indigo-500">Home</Link>
             <Link to="/page1" className="transition hover:text-indigo-500">Game Projects</Link>
             <Link to="/page2" className="transition hover:text-indigo-500">About</Link>
@@ -66,7 +66,7 @@ export default function App() {
               onClick={toggleTheme}
               aria-label={theme === "light" ? "เปลี่ยนเป็นโหมดมืด" : "เปลี่ยนเป็นโหมดสว่าง"}
               aria-pressed={theme === "dark"}
-              className="rounded-lg border border-gray-300 bg-gray-50 px-3 py-1.5 text-sm font-semibold text-gray-700 transition hover:bg-gray-100"
+              className="rounded-lg border border-gray-300 bg-gray-50 px-4 py-2 text-base font-semibold text-gray-700 transition hover:bg-gray-100"
             >
               {theme === "light" ? "🌙 โหมดมืด" : "☀️ โหมดสว่าง"}
             </button>
