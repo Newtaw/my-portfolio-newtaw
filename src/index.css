@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Noto Sans Thai", "Leelawadee UI", Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+.app-shell[data-theme="dark"] {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.app-shell[data-theme="dark"] .bg-white {
+  background-color: #111827;
+}
+
+.app-shell[data-theme="dark"] .bg-gray-50 {
+  background-color: #0f172a;
+}
+
+.app-shell[data-theme="dark"] .bg-gray-100,
+.app-shell[data-theme="dark"] .bg-gray-200 {
+  background-color: #1f2937;
+}
+
+.app-shell[data-theme="dark"] .text-gray-800,
+.app-shell[data-theme="dark"] .text-gray-700 {
+  color: #e5e7eb;
+}
+
+.app-shell[data-theme="dark"] .text-gray-600,
+.app-shell[data-theme="dark"] .text-gray-500,
+.app-shell[data-theme="dark"] .text-gray-400 {
+  color: #cbd5e1;
+}
+
+.app-shell[data-theme="dark"] .border-gray-200,
+.app-shell[data-theme="dark"] .border-gray-300 {
+  border-color: #374151;
+}
+
+.app-shell[data-theme="dark"] .bg-indigo-50 {
+  background-color: #1e1b4b;
+}
+
+.app-shell[data-theme="dark"] .bg-indigo-50\/60 {
+  background-color: rgb(30 27 75 / 60%);
+}
+
+.app-shell[data-theme="dark"] .bg-indigo-100 {
+  background-color: #312e81;
+  color: #e0e7ff;
+}
+
+.app-shell[data-theme="dark"] .bg-emerald-50 {
+  background-color: #064e3b;
+  color: #d1fae5;
+}
+
+.app-shell[data-theme="dark"] .text-indigo-700 {
+  color: #c7d2fe;
+}
+
+.app-shell[data-theme="dark"] .text-indigo-600 {
+  color: #a5b4fc;
+}
+
+.app-shell[data-theme="dark"] .text-amber-700 {
+  color: #fcd34d;
+}
+
+.app-shell[data-theme="dark"] .bg-emerald-50 {
+  background-color: #064e3b;
+}
+
+.app-shell[data-theme="dark"] .border-emerald-100,
+.app-shell[data-theme="dark"] .border-emerald-200 {
+  border-color: #047857;
+}
+
+.app-shell[data-theme="dark"] .bg-red-50,
+.app-shell[data-theme="dark"] .bg-red-100 {
+  background-color: #450a0a;
+}
+
+.app-shell[data-theme="dark"] .text-red-700 {
+  color: #fecaca;
+}
+
+.app-shell[data-theme="dark"] input,
+.app-shell[data-theme="dark"] textarea,
+.app-shell[data-theme="dark"] select {
+  border-color: #4b5563;
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
+.app-shell[data-theme="dark"] input::placeholder,
+.app-shell[data-theme="dark"] textarea::placeholder {
+  color: #9ca3af;
+}
+
+.app-shell[data-theme="dark"] .bg-gray-50 input,
+.app-shell[data-theme="dark"] .bg-gray-50 textarea,
+.app-shell[data-theme="dark"] .bg-gray-50 select {
+  background-color: #111827;
+}
+
+.app-shell[data-theme="dark"] .bg-gray-100:hover,
+.app-shell[data-theme="dark"] .bg-gray-200:hover {
+  background-color: #374151;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-indigo-600"] {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-indigo-600"]:hover {
+  background-color: #6366f1;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-indigo-100"] {
+  background-color: #312e81;
+  color: #e0e7ff;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-indigo-100"]:hover {
+  background-color: #3730a3;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-emerald-600"] {
+  background-color: #047857;
+  color: #ffffff;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-emerald-600"]:hover {
+  background-color: #059669;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-red-100"] {
+  background-color: #7f1d1d;
+  color: #fee2e2;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-red-100"]:hover {
+  background-color: #991b1b;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-red-50"] {
+  background-color: #450a0a;
+  color: #fecaca;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-red-50"]:hover {
+  background-color: #7f1d1d;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-gray-50"],
+.app-shell[data-theme="dark"] button[class*="bg-gray-100"],
+.app-shell[data-theme="dark"] button[class*="bg-gray-200"] {
+  border-color: #4b5563;
+  background-color: #374151;
+  color: #f3f4f6;
+}
+
+.app-shell[data-theme="dark"] button[class*="bg-gray-50"]:hover,
+.app-shell[data-theme="dark"] button[class*="bg-gray-100"]:hover,
+.app-shell[data-theme="dark"] button[class*="bg-gray-200"]:hover {
+  background-color: #4b5563;
+}
+
+.app-shell[data-theme="dark"] button:disabled {
+  cursor: not-allowed;
+  filter: saturate(0.65);
+  opacity: 0.65;
+}
